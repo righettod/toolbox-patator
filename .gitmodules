@@ -1,0 +1,3 @@
+[submodule "patator"]
+	path = patator
+	url = https://github.com/lanjelot/patator.git
