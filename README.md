@@ -34,6 +34,7 @@ PS> docker run -it --rm -v $pwd`:/work ghcr.io/righettod/toolbox-patator:main ht
 06:05:12 patator    INFO - Starting Patator 1.1-dev (https://github.com/lanjelot/patator) with python-3.10.12 at 2024-10-01 06:05 UTC
 06:05:12 patator    INFO -
 06:05:12 patator    INFO - code size:clen       time | candidate                          |   num | mesg
+...
 ```  
 
 ## 🤝 Sources & credits
