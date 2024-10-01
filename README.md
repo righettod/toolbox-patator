@@ -28,7 +28,7 @@ Available modules:
   + ftp_login     : Brute-force FTP
   + ssh_login     : Brute-force SSH
   + telnet_login  : Brute-force Telnet
-  ...
+...
 
 PS> docker run -it --rm -v $pwd`:/work ghcr.io/righettod/toolbox-patator:main http_fuzz url=https://mysite.com user_pass=FILE0:FILE1 method=GET 0=/work/users.txt 1=/work/rockyou.txt auth_type=basic -x ignore:code=500 --threads 5
 06:05:12 patator    INFO - Starting Patator 1.1-dev (https://github.com/lanjelot/patator) with python-3.10.12 at 2024-10-01 06:05 UTC
