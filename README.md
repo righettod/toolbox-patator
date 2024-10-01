@@ -15,6 +15,22 @@ The image is build every week and pushed to the GitHub image repository. You can
 
 `docker pull ghcr.io/righettod/toolbox-patator:main`
 
+## 👨‍💻 Usage
+
+Use the following command from a PowerShell shell:
+
+```powershell
+PS> docker run -it --rm -v $pwd`:/work ghcr.io/righettod/toolbox-patator:main --help
+Patator 1.1-dev (https://github.com/lanjelot/patator) with python-3.10.12
+Usage: patator.py module --help
+
+Available modules:
+  + ftp_login     : Brute-force FTP
+  + ssh_login     : Brute-force SSH
+  + telnet_login  : Brute-force Telnet
+  ...
+```  
+
 ## 🤝 Sources & credits
 
 * [Patator author](https://github.com/lanjelot/patator).
