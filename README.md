@@ -8,6 +8,9 @@ Toolbox to have a always up to date docker image of the tools named [Patator](ht
 
 ## 📦 Build
 
+> [!IMPORTANT]
+> Currently the original dockerfile, is replaced by this [one](Dockerfile), due to this [issue](https://github.com/lanjelot/patator/issues/209) (Dockerfile was taken from the author of the issue).
+
 The image is build every week and pushed to the GitHub image repository. You can retrieve it with the following command:
 
 `docker pull ghcr.io/righettod/toolbox-patator:main`
