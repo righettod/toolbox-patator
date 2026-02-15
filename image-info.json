@@ -1,46 +1,30 @@
 [
     {
-        "Id": "sha256:3501c0824a59c37b018a1ed86d9f74cc82da9ea84fbcf67fff1a0b8b75b8451c",
+        "Id": "sha256:21e15aee4a04fdfaf4ef667af68bfbfd65defbec3998d00e72a7643dc047bb83",
         "RepoTags": [
             "ghcr.io/righettod/toolbox-patator:main",
             "ghcr.io/righettod/toolbox-patator:nightly"
         ],
         "RepoDigests": [
-            "ghcr.io/righettod/toolbox-patator@sha256:804bc555bc2f73f06420dd941abcf39277957421965b59d4b16a02f528779534"
+            "ghcr.io/righettod/toolbox-patator@sha256:21e15aee4a04fdfaf4ef667af68bfbfd65defbec3998d00e72a7643dc047bb83"
         ],
-        "Parent": "",
         "Comment": "buildkit.dockerfile.v0",
-        "Created": "2026-02-08T00:57:46.103676724Z",
-        "DockerVersion": "",
-        "Author": "",
+        "Created": "2026-02-15T00:49:35.60453275Z",
         "Config": {
-            "Hostname": "",
-            "Domainname": "",
-            "User": "",
-            "AttachStdin": false,
-            "AttachStdout": false,
-            "AttachStderr": false,
-            "Tty": false,
-            "OpenStdin": false,
-            "StdinOnce": false,
             "Env": [
                 "PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
             ],
-            "Cmd": null,
-            "Image": "",
-            "Volumes": null,
-            "WorkingDir": "/opt/patator",
             "Entrypoint": [
                 "python3",
                 "./patator.py"
             ],
-            "OnBuild": null,
+            "WorkingDir": "/opt/patator",
             "Labels": {
-                "org.opencontainers.image.created": "2026-02-08T00:55:11.587Z",
+                "org.opencontainers.image.created": "2026-02-15T00:47:14.053Z",
                 "org.opencontainers.image.description": "Toolbox to have a always up to date docker image of the tools named \"patator\".",
                 "org.opencontainers.image.licenses": "GPL-3.0",
                 "org.opencontainers.image.ref.name": "ubuntu",
-                "org.opencontainers.image.revision": "1ce86e861c75b8efc59544d544bc9ff75b544eff",
+                "org.opencontainers.image.revision": "3a463c7b459ad64fbaeedaca4a4c8fc89e333473",
                 "org.opencontainers.image.source": "https://github.com/righettod/toolbox-patator",
                 "org.opencontainers.image.title": "toolbox-patator",
                 "org.opencontainers.image.url": "https://github.com/righettod/toolbox-patator",
@@ -49,36 +33,32 @@
         },
         "Architecture": "amd64",
         "Os": "linux",
-        "Size": 1815599087,
-        "GraphDriver": {
-            "Data": {
-                "LowerDir": "/var/lib/docker/overlay2/sdqwjaw3iutotm5dno9f053as/diff:/var/lib/docker/overlay2/kli2c0p7y5hoo3gt5hlxpx5xu/diff:/var/lib/docker/overlay2/ezz9606wkwcxn0bcv8dkr66y9/diff:/var/lib/docker/overlay2/58ie209q94ozgnfnw3hdjhphf/diff:/var/lib/docker/overlay2/s60yqhyzovmk62n4u4k89homa/diff:/var/lib/docker/overlay2/4yy4lurjx4h1nzz1kn6o34z4l/diff:/var/lib/docker/overlay2/u6n9jdagn0molmwb550vycukp/diff:/var/lib/docker/overlay2/zc9hkcxq5wzpvrieieaagrrvd/diff:/var/lib/docker/overlay2/ys11f0435m9uvkafx8b1tbe9n/diff:/var/lib/docker/overlay2/w1hh87smj9hrtl33hp8ygico8/diff:/var/lib/docker/overlay2/t6sjewmpz8igvv5fkcc0nequ7/diff:/var/lib/docker/overlay2/d2f287e7efef5a7c91f4024e921e6e70ad7c4d87b762f1460cb70b5c7247caa0/diff",
-                "MergedDir": "/var/lib/docker/overlay2/lf5vx2n037fse95ds5sjwq1fg/merged",
-                "UpperDir": "/var/lib/docker/overlay2/lf5vx2n037fse95ds5sjwq1fg/diff",
-                "WorkDir": "/var/lib/docker/overlay2/lf5vx2n037fse95ds5sjwq1fg/work"
-            },
-            "Name": "overlay2"
-        },
+        "Size": 734374020,
         "RootFS": {
             "Type": "layers",
             "Layers": [
                 "sha256:fbb9bbbaf4d2b027acd15252897d5043386eea7121e0e0433e697714bb14beac",
-                "sha256:6af42fe62c124f0f9689fcc2570c7475ef1583bb7394be52122e89e79b0c4f05",
-                "sha256:763efeb8259a7abe161ab28ab09f0a71fe5b9e92cf39b30ed42df259478574cd",
-                "sha256:006aced1bc80e43315d59c29ccef4d3e6979cea163716319e16032dd5756ddad",
-                "sha256:03ad382e94e832ad4eb8e3d6fc4db3f1ccc10eb9c71fba8dc6346655408aba16",
-                "sha256:85f686cda2b3bd34546bb726d6ae9d874408f3b193858d14a7ba4505b7bc55fa",
-                "sha256:0ce11580bd666ebbbec99cbbb5d6f06289746defb7e1b50b04c848ed55cc99ae",
-                "sha256:ac99eedb548dc3b473a24ea00d75ed8eb4c17fe99214afd44f560c91488ad977",
-                "sha256:7e10e2c00aade7aaf9ddff6ae681594b3771a807015c23208be82b4ba62d5ed2",
-                "sha256:d327e657af3213e4c1634a791c47d92682c32f1f95994cbcb57ba61391dec9ce",
-                "sha256:a7f5e24bc136945ecb56f5e69f8dd1ecf1232bb571514f87688580b37e87cdb1",
-                "sha256:7d7d7da1b17da0f95c2abfa4b9281ecf641fad3796c16eb99e982aae4159ff51",
-                "sha256:f3869abb13c63448659d7a8834e9552f03aa0d941a6fba6257e7a48da658c5c3"
+                "sha256:657e5df23b7d49e81c6cb2cfc7f9f0914b48689b473086133845d44b308d020e",
+                "sha256:2be4e97a1f039d05e64b0815548230886f4d53b298439dd987956ba55f3fc866",
+                "sha256:30a9f93fea2d05e533ab825c1fdf07eee7266027b166291b7806c63dd99e32fe",
+                "sha256:1f6fd6419b6ebcc08e5cb312e29cacdb3de92374499c427c6db13039f316d895",
+                "sha256:830f4a547558fa1b6e96945053bb5d3efc827c66c18b7ec8bf4ae581758f3aa7",
+                "sha256:e167024d824fa0ef252a6e1c4a353fb98296c34ba91cb206557e7f0e3011ea36",
+                "sha256:333aac4148e747b3695805e6708d99637d48b21947fea91523f89c1fafeafd2a",
+                "sha256:5a660cfc2bfe517ac25ba4dc3e1ac2dc6655bcf4a6d008b8d361fc557eccde39",
+                "sha256:d8fa7c7a49170de9d93792025724354e3f070896e57da94381db57fc256931a5",
+                "sha256:d1f84b36ecfb037a86f357e8ecb433fd45a1680cf66499d1a394944295ca846f",
+                "sha256:f17d9faef8a69674b60d8376869ca81a491601e85a1179f051a1c54c2c314dc9",
+                "sha256:a98842f9eed3340c0ed853944b1b9c7723a7341d9750f934a052053ab968e22c"
             ]
         },
         "Metadata": {
-            "LastTagTime": "2026-02-08T00:57:51.978048458Z"
+            "LastTagTime": "2026-02-15T00:50:14.891949328Z"
+        },
+        "Descriptor": {
+            "mediaType": "application/vnd.oci.image.index.v1+json",
+            "digest": "sha256:21e15aee4a04fdfaf4ef667af68bfbfd65defbec3998d00e72a7643dc047bb83",
+            "size": 856
         }
     }
 ]
